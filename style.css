@@ -156,11 +156,29 @@ letter-spacing: 0%;
 text-align: center;
 
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+.img_agency_awards_block{
+    width: 35%;
+}grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 gap: 30px;
 }
 .agency_awards_block{
     border-radius: 10px;
     background: rgb(19, 32, 53);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agency_awards_block4 {
+grid-area: 2 / 1 / 4 / 3;
+
+}
+.img_agency_awards_block{
+    width: 10%;
+}
+
+.img_agency_awards_block4{
+    width: 10%;
 }
